@@ -396,40 +396,103 @@ nav ul li a:hover {
 }
 
 #contact {
-  margin: 200px;
+  margin: 200px 200px 140px;
 }
 
 #contact h2, p {
   text-align: center;
 }
 
+#contact h2 {
+  color: #333333;
+  font-family: "Open Sans", sans-serif;
+  font-size: 32px;
+  font-weight: 300;
+  letter-spacing: 0;
+  line-height: 44px;
+}
+
+#contact p {
+  color: #777777;
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  letter-spacing: 0;
+  line-height: 30px;
+  max-width: 900px;
+  width: 100%;
+  margin: 0 auto;
+}
+
 .form {
   justify-self: center;
-  margin: 50px;
+  max-width: 750px;
+  width: 100%;
+  margin: 100px auto 140px;
+}
+
+.form .submit-btn {
+  text-transform: uppercase;
+}
+
+.form textarea {
+  min-height: 156px;
+  height: 100%;
+  resize: none;
+}
+
+input:focus {
+  outline: none;
+}
+
+.form textarea:focus {
+  outline: none;
 }
 
 .label {
   text-align: left;
 }
 
-input[type=text] {
-  width: 80%;
+input[type=text]::placeholder,
+textarea::placeholder {
+  color: #B8B8B8;
+  font-family: 'Raleway', sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  letter-spacing: 4px;
+  line-height: 20px;
+}
+
+input[type=text],
+textarea {
+  width: 100%;
   margin: auto;
   padding: 12px 20px;
   margin: 8px 0;
   text-align: left;
   border: none;
   border-bottom: 2px solid #77bae7;
+  color: #B8B8B8;
+  font-family: 'Raleway', sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  letter-spacing: 4px;
+  line-height: 20px;
 }
 
-input[type=submit] {
-  background-color: white;
-  color: #77bae7;
+.submit-btn {
+  background-color: #fff;
   border: 2px solid #77bae7;
   padding: 15px 26px;
-
   text-decoration: none;
-  font-size: 16px;
+  color: #3498DB;
+  font-family: 'Raleway', sans-serif;
+  font-size: 11px;
+  font-weight: bold;
+  letter-spacing: 3px;
+  line-height: 11px;
+  max-width: 207px;
+  width: 100%;
 }
 
 .html {
